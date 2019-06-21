@@ -7,6 +7,16 @@ import time
 from PIL import Image 
 
 filepath = "./yalefaces/"
+
+#[Optional] 
+# Code to add .gif extension to files
+# =============================================================================
+# for filename in os.listdir(filepath):
+#     src = filepath+''+filename 
+#     dst = src + '.gif'
+#     os.rename(src, dst)
+# =============================================================================
+
 images=[]
 for filename in os.listdir(filepath):
     img = np.array(plt.imread(filepath+filename))
