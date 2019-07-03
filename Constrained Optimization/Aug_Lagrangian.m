@@ -2,7 +2,7 @@ clear all;
 close all;
 tic;
 %Intialization
-a=0.001; theta=[0.0001;0.0001]; mu=1;t=1;n=1;flag=0;x=0.5;y=0.5;x_opt=x;y_opt=y;grad_F = [10;10];mu_opt=mu;
+a=0.001; theta=[0.0001;0.0001]; mu=1;t=1;n=1;flag=0;x=0.5;y=0.5;x_opt=x;y_opt=y;grad_F = [10;10]; mu_opt=mu;
 
 f=  @(x,y)(x+y);  % Objective function
 grad_f = [1;1];  % Gradient 
