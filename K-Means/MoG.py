@@ -22,15 +22,12 @@ N = data.shape[0]
 d = data.shape[1]
 K=3
 
-'''Formula
-q = (1/np.sqrt(nla.det(2*np.pi*Sigma)))*(np.power(np.e,(-0.5*np.transpose(x-u)*nla.inv(Sigma)*(x-u))))
-'''
 clusters = []
 q = np.zeros((N,K),dtype=float)
-#Sigma = np.identity(d, dtype = float) 
 S = np.matmul(np.transpose(data),data)
 Sigma = np.ones((K,d,d),dtype=float)
 sum_classes = np.zeros(K,dtype=float)
+
 #%%  Allocate random cluster intiliazizations
 
 for i in range(K):
@@ -61,12 +58,3 @@ for iterations in range(10):
 			S += q[i,k]*np.matmul(np.transpose(data[i]),data[i]) - uk_ukT
 		clusters[k] = u/sum_classes[k]
 		Sigma[k] = S/sum_classes[k]
-	
-	
-
-		
-		
-	
-		
-
-			     
