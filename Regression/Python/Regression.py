@@ -44,7 +44,7 @@ print("X_grid.shape:", X_grid.shape)
 # Predict with trained model
 y_grid = dot(X_grid, beta_)
 print("Y_grid.shape", y_grid.shape)
-# vis the result
+# visualize the result
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d') # the projection part is important
 ax.scatter(X_grid[:, 1], X_grid[:, 2], y_grid) # dont use the 1 infront
