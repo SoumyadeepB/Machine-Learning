@@ -6,10 +6,12 @@ import scipy.sparse.linalg as sla
 import os
 from gaussian_processes_util import plot_gp
 
+gamma=2
+l=0.2
 def kernel(X1, X2, l=1.0, sigma_f=1.0):
     ''' Isotropic squared exponential kernel. Computes a covariance matrix from points in X1 and X2. Args: X1: Array of m points (m x d). X2: Array of n points (n x d). Returns: Covariance matrix (m x n). '''
     sqdist = np.sum(X1**2, 1).reshape(-1, 1) + np.sum(X2**2, 1) - 2 * np.dot(X1, X2.T)
-    return sigma_f**2 * np.exp(-0.5 / l**2 * sqdist)
+    return sigma_f**2 * np.exp(-/ l**2 * (sqdist/l)**gamma
 
 
 
