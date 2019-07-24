@@ -1,4 +1,4 @@
-clear all;
+%% Lagrangian Dual
 close all;
 size=100;
 size_lambda=20;
