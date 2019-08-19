@@ -6,6 +6,7 @@ import os
 from PIL import Image 
 
 filepath = "./yalefaces_cropBackground/"
+
 #Code to add .gif extension to files
 # =============================================================================
 # for filename in os.listdir(filepath):
