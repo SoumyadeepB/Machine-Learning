@@ -13,7 +13,7 @@ filepath = "./yalefaces_cropBackground/"
 #     src = filepath+''+filename 
 #     dst = src + '.gif'
 #     os.rename(src, dst)
-# =============================================================================
+# ==============================================================================
 
 images=[]
 #Read the images
