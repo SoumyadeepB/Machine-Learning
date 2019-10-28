@@ -1,3 +1,4 @@
+
 %% Load Data
 data = load('data2class.txt');
 x=data(:,1:2); %features
