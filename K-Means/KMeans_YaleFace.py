@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import scipy as sp
 import scipy.sparse.linalg as sla
+from tqdm import tqdm,tqdm_gui
 import os
 from PIL import Image 
 
