@@ -46,7 +46,7 @@ for iterations in range(10):
         min_error = 999999999
         for k in range(K):
             error = np.linalg.norm(I[i]-clusters[k])
-         #   print(str(k)+": "+str(error))
+         
             if error<min_error:
                 min_error = error
                 cluster_label[i]=k
