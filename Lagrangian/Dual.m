@@ -1,5 +1,6 @@
-%% Lagrangian Dual
+%% Lagrangian Dual 
 close all;
+clear all;
 size=100;
 size_lambda=20;
 lambda=linspace(1,20,size_lambda);
