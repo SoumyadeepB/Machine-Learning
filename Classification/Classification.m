@@ -30,7 +30,7 @@ u = linspace(min(x1), max(x1), 200);
 v = linspace(min(x2),max(x2), 200);
 z = zeros(length(u), length(v));
 
-% Evaluate z = x*beta over the grid
+%% Evaluate z = x*beta over the grid
 for i = 1:length(u)
     for j = 1:length(v)
         feature_vector=[1,u(i),v(j)];
