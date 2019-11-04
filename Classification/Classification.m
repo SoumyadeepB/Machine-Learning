@@ -39,7 +39,7 @@ for i = 1:length(u)
 end
 
 z = z';
-% Plot z = 0 by specifying the range [0, 0]
+%% Plot z = 0 by specifying the range [0, 0]
 contour(u,v,z, [0, 0], 'LineWidth', 2);
 legend('y=1','y=0','Decision boundary');
 xlabel('x1');
