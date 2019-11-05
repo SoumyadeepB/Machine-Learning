@@ -4,6 +4,7 @@ import scipy as sp
 import scipy.sparse.linalg as sla
 import os
 import time
+from tqdm import tqdm
 from PIL import Image 
 
 filepath = "./yalefaces/"
