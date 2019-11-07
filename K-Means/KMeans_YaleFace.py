@@ -2,17 +2,19 @@ import matplotlib.pyplot as plt
 import numpy as np
 import scipy as sp
 import scipy.sparse.linalg as sla
+from tqdm import tqdm,tqdm_gui
 import os
 from PIL import Image 
 
 filepath = "./yalefaces_cropBackground/"
+
 #Code to add .gif extension to files
 # =============================================================================
 # for filename in os.listdir(filepath):
 #     src = filepath+''+filename 
 #     dst = src + '.gif'
 #     os.rename(src, dst)
-# =============================================================================
+# ==============================================================================
 
 images=[]
 #Read the images
@@ -44,7 +46,7 @@ for iterations in range(10):
         min_error = 999999999
         for k in range(K):
             error = np.linalg.norm(I[i]-clusters[k])
-         #   print(str(k)+": "+str(error))
+         
             if error<min_error:
                 min_error = error
                 cluster_label[i]=k
