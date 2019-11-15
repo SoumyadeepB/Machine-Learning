@@ -46,7 +46,7 @@ xlabel('x1');
 ylabel('x2');
 beta
 
-%% Plotting P(y=1|x)
+%%  Plotting P(y=1|x)
 figure;
 plotData(x,y);
 for i = 1:length(u)
