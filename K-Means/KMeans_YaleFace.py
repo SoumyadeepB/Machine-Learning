@@ -17,6 +17,7 @@ filepath = "./yalefaces_cropBackground/"
 # ==============================================================================
 
 images=[]
+
 #Read the images
 for filename in os.listdir(filepath):
     img = np.array(plt.imread(filepath+filename))
