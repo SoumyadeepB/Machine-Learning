@@ -11,6 +11,7 @@ for j=1:size
     F1(j)=f1(x(j));
     F2(j)=f2(x(j));
 end
+
 plot(x,F1,'b');
 xlabel('x');
 ylabel('f(x)');
