@@ -1,4 +1,5 @@
 close all;
+clear all;
 data = load('dataQuadReg2D_noisy.txt');
 
 N=size(data,1); %total #of inputs
