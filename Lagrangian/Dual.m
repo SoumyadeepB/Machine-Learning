@@ -1,4 +1,4 @@
-%% Lagrangian Dual
+%% Lagrangian Dual  %%
 close all;
 clear all;
 size=100;
