@@ -9,7 +9,7 @@ from PIL import Image
 
 filepath = "./yalefaces/"
 
-#[Optional] 
+# [Optional] 
 # Code to add .gif extension to files
 # =============================================================================
 # for filename in os.listdir(filepath):
