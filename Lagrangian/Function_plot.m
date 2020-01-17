@@ -1,3 +1,4 @@
+clear all;
 close all;
 size=100;
 lambda=linspace(0,20,10);
