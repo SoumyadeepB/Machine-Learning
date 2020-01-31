@@ -1,4 +1,5 @@
 function NLL=neg_log(X,y,beta,lambda)
+
 [m,n]=size(X);
 NLL=0;
 for i=1:m
