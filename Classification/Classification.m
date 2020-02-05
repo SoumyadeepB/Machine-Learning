@@ -55,5 +55,6 @@ for i = 1:length(u)
         z(i,j) = sigmoid(feature_vector*beta);
     end
 end
+
 [U,V]=meshgrid(u);
 surf(U,V,z,'EdgeColor','None');
