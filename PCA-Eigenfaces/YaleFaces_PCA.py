@@ -11,7 +11,7 @@ filepath = "./yalefaces/"
 
 # [Optional] 
 # Code to add .gif extension to files
-# =============================================================================
+# ============================================================================
 # for filename in os.listdir(filepath):
 #     src = filepath+''+filename 
 #     dst = src + '.gif'
