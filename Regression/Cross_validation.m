@@ -3,7 +3,7 @@ clear all;
 
 data = load('dataQuadReg2D_noisy.txt');
 
-N=size(data,1); %total #of inputs
+N=size(data,1);  %total #of inputs
 k=10;
 n=N/k; %size of each block
 lambda=0;
@@ -68,29 +68,6 @@ errorbar(lambda_y,MSE_testData,sqrt(Var_testData)./100,'r.');
 xlabel('\lambda');
 ylabel('MSE');
 title('CV Error');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
