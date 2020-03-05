@@ -12,8 +12,6 @@ data = np.array(data.values)
 N = data.shape[0]
 d = data.shape[1]
 
-
-
 for K in range(2,10):
     cluster_label = np.zeros(N) # Cluster to which each image belongs
     clusters = []
@@ -25,8 +23,7 @@ for K in range(2,10):
     
     # Iterate 10 times for every K
     iterations=0
-    while(1):
-        
+    while(1):        
         
         iterations += 1
         # Associate cluster labels to each data point
@@ -63,6 +60,7 @@ for K in range(2,10):
         plt.scatter(clusters[:, 0], clusters[:, 1], c='red', s=100, alpha=0.8);
         plt.show()
         plt.figure()
+        
 #        for i in range(K):
 #            plt.imshow(clusters[i].reshape(R,C,4))
 #            plt.xticks([])
