@@ -8,6 +8,7 @@ figure;
 plotData(x,y);
 
 %% Feature Matrix
+
 x1=x(:,1);
 x2=x(:,2);
 X=[ones(m,1),x]; %Linear features
