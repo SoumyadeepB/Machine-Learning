@@ -1,1 +1,1 @@
-Classification Algorithms in ML
+Classification Algorithms in Machine Learning
