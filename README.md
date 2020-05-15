@@ -2,39 +2,39 @@
 
 Collection of Machine Learning algorithms implemented in Matlab/Python:
 
-- General concepts: 
+- __General concepts__
   - Lagrangian
   - Gaussian Processes
   - Gradient Descent
   - Constrained Optimization
 
-- Dimensionality Reduction
+- __Dimensionality Reduction__
   - PCA (Project: EigenFaces using the YaleFace Database)
   - Auto-encoder
 
-- Classification
+- __Classification__
   - Linear Features
   - Polynomial Features
   
-- Regression 
+- __Regression__
   - Linear
   - Polynomial
   
-- Clustering
+- __Clustering__
   - K-Means
   - DBScan
   
-- Neural Networks
+- __Neural Networks__
   - Project: Estimating bike-sharing patterns
-- Convolutional Neural Networks (CNN)
+- __Convolutional Neural Networks (CNN)__
   - Project: Dog-breed classifier
-- Recurrent Neural Networks (RNN)
+- __Recurrent Neural Networks (RNN)__
   - Project: Character Level RNN
-- Long-Short Term Memory (LSTM)
+- __Long-Short Term Memory (LSTM)__
   - Project: TV Script Generation
-- Generative Advarsarial Networks
+- __Generative Advarsarial Networks (GAN)__
   - Project: Human Face generation
-- Other Projects:
+- __Other Projects__
   - Segmenting Neighborhoods using ML and the FourSquare API
   - MNIST Handwritten Digit Classification
   - Traffic Signal Classification (CNN) [BelgiumTSC Dataset]
