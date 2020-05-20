@@ -2,6 +2,8 @@
 
 Collection of Machine Learning algorithms implemented in Matlab/Python:
 
+Requirements: Python, TensorFlow, scikit-learn
+
 - __General concepts__
   - Lagrangian
   - Gaussian Processes
