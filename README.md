@@ -33,10 +33,10 @@ Requirements: Python, TensorFlow, scikit-learn
 - __Recurrent Neural Networks (RNN)__
   - Project: Character Level RNN [[view]](RNN/Character-Level-RNN.ipynb)
 - __Long-Short Term Memory (LSTM)__
-  - Project: TV Script Generation [[view]]()
+  - Project: TV Script Generation [[view]](RNN/TV_Script_Generation/dlnd_tv_script_generation.ipynb)
 - __Generative Advarsarial Networks (GAN)__
-  - Project: Human Face generation [[view]]()
+  - Project: Human Face generation [[view]](GAN/Generating_Faces/dlnd_face_generation.pdf)
 - __Other Projects__
-  - Segmenting Neighborhoods using ML and the FourSquare API [[view]]()
+  - Segmenting Neighborhoods using ML and the FourSquare API [[view]](Capstone_Project_Report.pdf)
   - MNIST Handwritten Digit Classification [[view]]()
-  - Traffic Signal Classification (CNN) [BelgiumTSC Dataset] [[view]]()
+  - Traffic Signal Classification (CNN) [BelgiumTSC Dataset] [[view]](TensorFlow/Traffic Signal Classification/BelgiumTSC.ipynb)
