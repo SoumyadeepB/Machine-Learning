@@ -29,7 +29,7 @@ Requirements: Python, TensorFlow, scikit-learn
 - __Neural Networks__
   - Project: Estimating bike-sharing patterns
 - __Convolutional Neural Networks (CNN)__
-  - Project: Dog-breed classifier
+  - Project: Dog-breed classifier [view](CNN/Dog_Breed_Classifier/dog_app.ipynb)
 - __Recurrent Neural Networks (RNN)__
   - Project: Character Level RNN
 - __Long-Short Term Memory (LSTM)__
