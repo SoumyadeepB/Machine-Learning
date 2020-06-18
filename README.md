@@ -29,14 +29,14 @@ Requirements: Python, TensorFlow, scikit-learn
 - __Neural Networks__
   - Project: Estimating bike-sharing patterns
 - __Convolutional Neural Networks (CNN)__
-  - Project: Dog-breed classifier [view](CNN/Dog_Breed_Classifier/dog_app.ipynb)
+  - Project: Dog-breed classifier [[view]](CNN/Dog_Breed_Classifier/dog_app.ipynb)
 - __Recurrent Neural Networks (RNN)__
-  - Project: Character Level RNN
+  - Project: Character Level RNN [[view]](RNN/Character-Level-RNN.ipynb)
 - __Long-Short Term Memory (LSTM)__
-  - Project: TV Script Generation
+  - Project: TV Script Generation [[view]]()
 - __Generative Advarsarial Networks (GAN)__
-  - Project: Human Face generation
+  - Project: Human Face generation [[view]]()
 - __Other Projects__
-  - Segmenting Neighborhoods using ML and the FourSquare API
-  - MNIST Handwritten Digit Classification
-  - Traffic Signal Classification (CNN) [BelgiumTSC Dataset]
+  - Segmenting Neighborhoods using ML and the FourSquare API [[view]]()
+  - MNIST Handwritten Digit Classification [[view]]()
+  - Traffic Signal Classification (CNN) [BelgiumTSC Dataset] [[view]]()
