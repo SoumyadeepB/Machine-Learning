@@ -37,6 +37,6 @@ Requirements: Python, TensorFlow, scikit-learn
 - __Generative Advarsarial Networks (GAN)__
   - Project: Human Face generation [[view]](GAN/Generating_Faces/dlnd_face_generation.pdf)
 - __Other Projects__
-  - Segmenting Neighborhoods using ML and the FourSquare API [[view]](Capstone_Project_Report.pdf)
+  - Segmenting Neighborhoods using ML and the FourSquare API [[view]](https://github.com/SoumyadeepB/Coursera_Capstone/blob/master/Capstone_Project_Report.pdf)
   - MNIST Handwritten Digit Classification [[view]]()
   - Traffic Signal Classification (CNN) [BelgiumTSC Dataset] [[view]](TensorFlow/Traffic Signal Classification/BelgiumTSC.ipynb)
