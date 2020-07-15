@@ -39,4 +39,4 @@ Requirements: Python, TensorFlow, scikit-learn
 - __Other Projects__
   - Segmenting Neighborhoods using ML and the FourSquare API [[view]](https://github.com/SoumyadeepB/Coursera_Capstone/blob/master/Capstone_Project_Report.pdf)
   - MNIST Handwritten Digit Classification [[view]]()
-  - Traffic Signal Classification (CNN) [BelgiumTSC Dataset] [[view]](https://github.com/SoumyadeepB/Machine-Learning/blob/master/TensorFlow/Traffic%20Signal%20Classification/BelgiumTSC.ipynb)
+  - Traffic Signal Classification (CNN) [BelgiumTSC Dataset]  [[view]](https://github.com/SoumyadeepB/Machine-Learning/blob/master/TensorFlow/Traffic%20Signal%20Classification/BelgiumTSC.ipynb)
