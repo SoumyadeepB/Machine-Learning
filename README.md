@@ -27,7 +27,7 @@ Requirements: Python, TensorFlow, scikit-learn
   - DBScan
   
 - __Neural Networks__
-  - Project: Estimating bike-sharing patterns [[view]](Neural Networks/Bike_Sharing.ipynb)
+  - Project: Estimating bike-sharing patterns [[view]](Neural%20Networks/Bike_Sharing.ipynb)
 - __Convolutional Neural Networks (CNN)__
   - Project: Dog-breed classifier [[view]](CNN/Dog_Breed_Classifier/dog_app.ipynb)
 - __Recurrent Neural Networks (RNN)__
