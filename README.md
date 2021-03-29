@@ -1,6 +1,6 @@
 # Machine-Learning 
 
-Collection of Machine Learning algorithms implemented in Matlab/Python :
+Collection of Machine Learning algorithms implemented in Matlab/Python:
 
 Requirements: Python, TensorFlow, scikit-learn
 
