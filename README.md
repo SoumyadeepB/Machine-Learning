@@ -22,7 +22,8 @@ Collection of Machine Learning algorithms implemented in Matlab/Python:
   - Polynomial
   
 - __Clustering__
-  - K-Means
+  - K-Means (Customer Segmentation, Image Compression)
+  - Mixture of Gaussians (MoG)
   - DBScan
   
 - __Neural Networks__
