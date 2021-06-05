@@ -16,6 +16,7 @@ Collection of Machine Learning algorithms implemented in Matlab/Python:
 - __Classification__
   - Linear Features
   - Polynomial Features
+  - Naive Bayes [[view]](/Classification/Naive%20Bayes.ipynb)
   
 - __Regression__
   - Linear
