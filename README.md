@@ -26,6 +26,8 @@ Collection of Machine Learning algorithms implemented in Matlab/Python:
   - Mixture of Gaussians (MoG)
   - DBScan
   
+- __Decision Trees__ [[view]](Decision%20Trees)
+
 - __Neural Networks__
   - Project: Estimating bike-sharing patterns [[view]](Neural%20Networks/Bike_Sharing.ipynb)
 - __Auto-encoder__
