@@ -38,7 +38,7 @@ Collection of Machine Learning algorithms implemented in Matlab/Python:
 - __Recurrent Neural Networks (RNN)__
   - Project: Character Level RNN [[view]](RNN/Character-Level-RNN.ipynb)
 - __Long-Short Term Memory (LSTM)__
-  - Project: TV Script Generation [[view]](RNN/TV_Script_Generation/dlnd_tv_script_generation.ipynb)  - 
+  - Project: TV Script Generation [[view]](RNN/TV_Script_Generation/dlnd_tv_script_generation.ipynb)
 - __Generative Adversarial Networks (GAN)__
   - Project: Human Face generation [[view]](GAN/Generating_Faces/dlnd_face_generation.pdf)
 - __Transfer Learning__:
