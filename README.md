@@ -8,6 +8,7 @@ Collection of Machine Learning algorithms implemented in Matlab/Python:
   - Gaussian Processes
   - Gradient Descent
   - Constrained Optimization
+  - Singular Value Decomposition [[view]](SVD/Image%20Compression%20using%20SVD.ipynb)
 
 - __Dimensionality Reduction__
   - PCA (Project: EigenFaces using the YaleFace Database)
