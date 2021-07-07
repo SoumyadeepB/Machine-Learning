@@ -1,4 +1,4 @@
-## Anomaly detection using an LSTM-based Autoencoder
+## Anomaly detection using an LSTM-based Autoencoder 
 
 
 An autoencoder is a type of artificial neural network used to learn efficient data codings in an unsupervised manner (although they are trained using supervised learning methods). The aim of an autoencoder is to learn a representation (encoding) for a set of data, typically for dimensionality reduction, by training the network to ignore signal “noise”. 
